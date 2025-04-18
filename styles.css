@@ -49,6 +49,11 @@ body {
     margin-left: 0.5rem;
     transition: background 0.15s;
     box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    padding: 0;
 }
 #help-btn:hover {
     background: #f4d35e;
@@ -79,15 +84,14 @@ body {
 
 #grid {
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, 16vw));
-    grid-template-rows: repeat(5, minmax(0, 16vw));
-    gap: 3vw;
+    grid-template-columns: repeat(5, 80px);
+    grid-template-rows: repeat(5, 80px);
+    gap: 12px;
     background: rgba(0,0,0,0.2);
-    padding: 4vw;
-    border-radius: 4vw;
+    padding: 16px;
+    border-radius: 16px;
     box-shadow: 0 4px 32px rgba(0,0,0,0.4);
-    max-width: 95vw;
-    max-height: 95vw;
+    max-width: 440px;
     margin: 0 auto;
     box-sizing: border-box;
 }
@@ -106,14 +110,10 @@ body {
 
 
 .tile {
-    width: 16vw;
-    height: 16vw;
-    max-width: 90px;
-    max-height: 90px;
-    min-width: 40px;
-    min-height: 40px;
+    width: 80px;
+    height: 80px;
     background: #444;
-    border-radius: 1vw;
+    border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -212,6 +212,11 @@ body {
     font-size: 1.5rem;
     cursor: pointer;
     z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    padding: 0;
 }
 #close-instructions:hover {
     background: #f44;
@@ -280,6 +285,11 @@ body {
     cursor: pointer;
     z-index: 10;
     transition: background 0.15s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    padding: 0;
 }
 #close-modal:hover {
     background: #f44;
