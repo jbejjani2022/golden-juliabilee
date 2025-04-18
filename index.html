@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Golden Juliabilee</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="title-bar">
+        <h1 id="game-title">The Golden Juliabilee</h1>
+        <button id="help-btn" title="How to play?">?</button>
+    </div>
+    <div id="game-container">
+        <div id="attempts-counter">Attempts: 0 / 5</div>
+        <div id="message-area"></div>
+        <div id="grid"></div>
+    </div>
+    <div id="modal" class="hidden">
+        <div id="modal-content">
+            <button id="close-modal">&times;</button>
+            <img id="modal-img" src="" alt="Full Image" />
+        </div>
+    </div>
+    <div id="instructions-modal" class="hidden">
+        <div id="instructions-content">
+            <button id="close-instructions">&times;</button>
+            <div id="instructions-text"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
